@@ -1,0 +1,13 @@
+.header__lang {
+  display: flex;
+  margin: 46px 48px auto auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 321px) {
+  .header__lang {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 30px 16px auto auto;
+  }
+}

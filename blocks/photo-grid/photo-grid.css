@@ -1,0 +1,20 @@
+.photo-grid {
+  padding: 92px 0;
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+  gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    gap: 14px;
+    padding: 92px 24px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .photo-grid {
+    padding: 92px 16px;
+  }
+}

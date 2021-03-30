@@ -1,0 +1,19 @@
+.cover__subtitle {
+  margin: 0;
+  max-width: 360px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  user-select: none;
+}
+
+@media screen and (max-width: 321px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

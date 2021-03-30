@@ -1,8 +1,8 @@
 pwd
-/Users/students-yandex/dev/russian-travel
+/Users/Const/Desktop/Яндекс.практикум/dev/russian-travel
 
 git branch
-* main
+* master
 develop
 
 touch .nojekyll

@@ -9,9 +9,10 @@
   user-select: none;
 }
 
-@media  screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .lead__title {
     font-size: 40px;
     line-height: 44px;
   }
 }
+

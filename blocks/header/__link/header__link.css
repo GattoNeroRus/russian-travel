@@ -1,22 +1,21 @@
-.header__lang-link {
+.header__link {
   text-decoration: none;
   list-style: none;
   font-size: 24px;
   line-height: 28px;
 }
 
-.header__lang-link:first-of-type {
+.header__link:first-of-type {
   margin: 0 18px 0 0;
-  text-decoration-line: underline;
 }
 
-.header__lang-link:hover {
+.header__link:hover {
   cursor: pointer;
   color: #f2f2f2;
 }
 
 @media screen and (max-width: 400px) {
-  .header__lang-link {
+  .header__link {
     font-size: 18px;
     line-height: 20px;
   }

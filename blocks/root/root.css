@@ -1,5 +1,5 @@
 .root {
-  width: 100%;
+  overflow-x: hidden;
   background: #2a2c2f;
   font-family: 'Inter', 'Arial', sans-serif;
   display: flex;

@@ -7,14 +7,20 @@
   align-items: center;
 }
 
+@media screen and (max-width: 1024px) {
+  .lead {
+    margin: 48px auto 92px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .lead {
-    margin: 88px auto;
+    margin: 48px auto 88px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .lead {
-    margin: 64px auto;
+    margin: 48px auto 64px;
   }
 }

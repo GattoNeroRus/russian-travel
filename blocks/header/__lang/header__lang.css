@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .header__lang {
+    margin: 46px 24px auto auto;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .header__lang {
     font-size: 18px;

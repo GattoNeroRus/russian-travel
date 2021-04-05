@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 1023px) {
   .place {
-    grid-template-columns: minmax(calc(35% - 96px), 440px) minmax(calc(65% - 96px), 456px);
+    grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
   }
 }
 
@@ -37,7 +37,7 @@
 
 @media screen and (max-width: 767px) {
   .place {
-    grid-template-columns: minmax(calc(35% - 48px), 340px) minmax(calc(65% - 48px), 352px);
+    grid-template-columns: minmax(calc(40% - 48px), 340px) minmax(calc(60% - 48px), 352px);
   }
 }
 

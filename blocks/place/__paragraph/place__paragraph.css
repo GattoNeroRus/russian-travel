@@ -1,4 +1,6 @@
 .place__paragraph {
+  word-wrap: break-word;
+  padding: 0;
   margin: 0;
   font-style: normal;
   font-weight: normal;
